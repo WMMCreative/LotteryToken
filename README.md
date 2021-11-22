@@ -13,7 +13,3 @@
 3% of JesterToken is distributed among the holders of JesterToken by ratio (they can choose in the contract Bscan BNB-BTC-JEST)
 
 Anti whale (Sell limit per day, Hold limit)
-
-# Vesting Contract
-Vesting contract with multiple benefactors
-Monthly unlock percentage
