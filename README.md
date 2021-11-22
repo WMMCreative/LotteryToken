@@ -1,15 +1,17 @@
-# JesterToken
+# LotteryToken
 
-1% of JesterToken is added to the LP 
+ 6% buy tax
+ 2% to liquidity (auto LP)
+ 1% to marketing wallet (in busd)
+ 1% to development (in busd)
+ 2% to prize pool (in busd)
 
-1.5% of JesterToken goes to development wallet in BNB
+ Sell tax -- 9% 
+3% to liquidity (auto LP) 
+1.5% to marketing in busd
+1.5% to development wallet in busd
+reward pool - 3% in Busd 
 
-1.5% of JesterToken goes to marketing wallet in BNB
+A winner is selected every hour (winning % based on the amount they hold). Winner will be selected using chainlink VRF function every hour automatically. There will min amount to qualify for reward.
 
-1% of JesterToken goes to charity wallet in BNB
-
-3% goes to lottery which is picked weekly
-
-3% of JesterToken is distributed among the holders of JesterToken by ratio (they can choose in the contract Bscan BNB-BTC-JEST)
-
-Anti whale (Sell limit per day, Hold limit)
+add max wallet limit, tx per limit, burn address should not considered in jackpot participants etc
