@@ -335,7 +335,7 @@ contract LotteryToken is ERC20, Ownable {
 
             amount = amount.sub(feeAmount);
 
-            super._transfer(from, address(this), fees);
+            super._transfer(from, address(this), feeAmount);
         }
 
         super._transfer(from, to, amount);
